@@ -1,0 +1,295 @@
+body {
+
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+#offer-head{
+    max-height: 100%;
+    text-align: center;
+    
+}
+
+#h1-offer {
+        color:  #e60000;
+        font-size: 50px;
+}
+
+#offer-p {
+    color: black;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-danger.outline {
+    border: 2px solid black;
+    color: black;
+}
+.btn-danger.outline:hover, .btn-danger.outline:focus, .btn-danger.outline:active, .btn-danger.outline.active, .open > .dropdown-toggle.btn-danger {
+    color: black;
+    border-color: black;
+}
+.btn-danger.outline:active, .btn-danger.outline.active {
+    border-color: black;
+    color: lightgrey;
+    box-shadow: none;
+}
+
+.box {
+    margin: auto;
+    max-width: 95%;
+    background-color:  #e60000;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+font-family: 'Brush Script MT', cursive;
+}
+
+.small-box {
+        background-color:  #e60000;
+        margin: auto;
+        max-width: 5%;
+        height: 5px;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+/* NAVBAR */
+#brand {
+    max-height:  120px;
+
+}
+
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+    height: 150px;
+    font-size: 30px;
+    
+
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.9);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+        font-size: 25px;
+line-height: 110px;
+
+        
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
+
+/* FOOTER */
+
+@media (max-width: 480px) {
+    #footer-info {
+       max-height: 500px !important;
+    }
+}
+
+#spacebox {
+    max-width: 100%;
+    height: 200px;
+}
+
+#spacebox2 {
+    max-width: 100%;
+    height: 100px;
+}
+
+.container-f {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    
+    background-color: #555859;
+ }
+
+#footer-info {
+    height: 225px;
+    max-width: 50%;
+    margin: auto;
+}
+ 
+ .dev-footer {
+     padding-top: 10px;
+     height: 50px;
+     max-width: 50%;
+     margin: auto;
+     background-color: #4E4F4F;
+     color: #9CA9AD;
+      -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+ }
+ 
+ #footer-title {
+     color: #D4D4D4;
+ }
+ #footer-link {
+     color: darkgrey;
+ }
+ #footer-dev-link {
+     color: white;
+ }
+ 
+ #outline-footer {
+     max-width: 100%;
+     height: 10px;
+     background-color: grey;
+      -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+ }
+ 
+ul
+{
+    list-style-type: none;
+}
+
+/* About Us */
+
+#aboutus {
+    font-size: 30px;
+    margin:auto;
+    text-align: center;
+}
+
+#about-red {
+    margin: auto;
+    height: 10px;
+    max-width: 20%;
+    background-color: #e60000;
+}
+
+#industries {
+max-height: 100%;
+    text-align: center;
+}
+
+#widl-impact {
+max-height: 100%;
+    text-align:center;
+    max-width: 100%;
+}
+
+#text-container {
+    margin:auto;
+    max-width: 90%;
+}
+
+#border-red {
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid #e60000;
+    padding: 20px; 
+    max-width: 50%;
+    max-height: 100%;
+
+}
+
+#defence-box {
+    max-width: 50%;
+    max-height: 100%;
+    margin: auto;
+}
+
+/* Contact Us */
+
+#contact-section {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    border-left-style: solid;
+    border-left-color: #e60000;
+    border-left-width: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#submit_button {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+#contact_form {
+    max-width: 75%;
+    margin: auto;
+}
+
+#contact-info {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    border-bottom-style: solid;
+    border-bottom-color: #e60000;
+    border-bottom-width: 40px;
+}
+
+#map {
+      border-radius: 50%;
+    
+        
+}
+
+/* Products and Services */
+
+#service-section {
+    max-width:95%;
+border-style: solid;
+border-color: #e60000;
+    text-align: center;
+    margin: auto;
+        border-radius: 25px;
+}
