@@ -1,0 +1,22 @@
+{
+  "name": "widl",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "chris netten"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/chrisnetten/repo1",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  }
+}
