@@ -3,6 +3,7 @@ $(window).load(function() {
 });
 
 $(document).ready(function(){
+    $('#h1-offer').animo( {animation: 'bounceInLeft', duration: 2 } );
    $('#demo1').animo( { animation: 'bounceInLeft', duration: 3 } );
 	$('#demo2').animo( { animation: 'bounceInRight', duration: 3 } );
 
