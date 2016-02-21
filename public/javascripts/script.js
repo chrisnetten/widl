@@ -3,7 +3,12 @@ $(window).load(function() {
 });
 
 $(document).ready(function(){
-    $('#h1-offer').animo( {animation: 'bounceInLeft', duration: 2 } );
+       $("#offer-p").hide();
+       $(".small-box").hide();
+    $('#h1-offer').animo( {animation: 'bounceInLeft', duration: 2 }, function() {
+           $('#offer-p').fadeToggle(500);
+           $('.small-box').fadeToggle(500);
+    });
    $('#demo1').animo( { animation: 'bounceInLeft', duration: 3 } );
 	$('#demo2').animo( { animation: 'bounceInRight', duration: 3 } );
 
