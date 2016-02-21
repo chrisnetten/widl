@@ -10,8 +10,16 @@ $(document).ready(function(){
 	$('#demo2').animo( { animation: 'bounceInRight', duration: 3 } );
 
 	$('#service-intro').animo( { animation: 'fadeInUp', duration: 1 } );
+    
+    	$('#test').animo( { animation: 'bounceInRight', duration: 3 } );
+            	$('#test1').animo( { animation: 'bounceInLeft', duration: 3 } );
+                
+});
+                
+ $(document).ready(function(){
+     new WOW().init();
+        });                
 
-    });
 
 
 /* Index animations */
@@ -37,3 +45,5 @@ $(document).ready(function() {
 				$('#index-img2').animo({animation: "fadeInRight", duration: 1});
 			});
 	
+
+
