@@ -37,5 +37,3 @@ $(document).ready(function() {
 				$('#index-img2').animo({animation: "fadeInRight", duration: 1});
 			});
 	
-/* About Animations */
-
