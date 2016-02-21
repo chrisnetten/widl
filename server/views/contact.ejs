@@ -1,7 +1,7 @@
 <%- include partials/header.ejs %>
 
     <section id="contact-section">
-        <h1> Contact Us </h1>
+        <div class="wow rollIn"><h1> Contact Us </h1></div>
         <form id="contact_form" action="/send" method="POST">
 
 
@@ -28,7 +28,7 @@
             <br>
 
             <div class="submitButton">
-                <input id="submit_button" class="btn btn-danger" type="submit" value="Send Email" />
+                <input id="submit_button" class="btn btn-danger wow bounceInDown" type="submit" value="Send Email" />
             </div>
         </form>
     </section>
@@ -55,8 +55,9 @@
             </div>
 
             <div class="col-xs-6">
-
+                <div class="wow bounce">
                 <div id="map" style="max-width: 100%; height: 350px;"></div>
+                </div>
             </div>
         </div>
         <div id="spacebox2"></div>
