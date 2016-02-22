@@ -250,6 +250,11 @@ max-height: 100%;
     max-width: 80%;
 }
 
+#aboutus-red-border {
+    max-width: 50%;
+    margin: auto;
+}
+
 #border-red {
     margin: auto;
     border-radius: 25px;
@@ -316,6 +321,10 @@ border-color: #e60000;
 /* Seminar Page */
 
 #seminar-intro {
+    border-top-style: solid;
+    border-top-color: #e60000;
+    border-bottom-style: solid;
+    border-bottom-color: #e60000;
     margin: auto;
     text-align: center;
 
