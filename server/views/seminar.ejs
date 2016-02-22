@@ -1,63 +1,173 @@
 <%- include partials/header.ejs %>
 
     <body>
-        <section id="seminar-intro" >
+        <div id="spacebox3"></div>
+        <section class="jumbotron" id="seminar-intro">
+            <div class="wow bounceIn">
+                <h2>What you will learn at a seminar</h2>
+                <div id="about-red"></div>
+            </div>
+            <div id="spacebox3"></div>
+
+            <div class="row wow fadeInDown">
+                <div class="col-sm-6 col-md-4">
+                    <p>Virtual “tryouts”, using advanced FEA and CFD simulation techniques;</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <p>Software on the market that helps improve products for manufacturing, and avenues to using such tools;</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <p>Characterizing materials (rubbers, metals, plastics, wires, bonds, etc.) in the laboratory, for simulation;</p>
+                </div>
+            </div>
+            <div id="spacebox3"></div>
+            <div class="row wow fadeInUp">
+                <div class="col-sm-6 col-md-4">
+                    <p>Bringing “real-life” problems to the computer (e.g.; simplification of geometries using symmetry or isolating
+                        areas of interest, yet accounting for the rest of structures via boundary conditions);</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <p>Finite element(s) to use, the type of analysis to run, outputs to look for, and correlation of numerical
+                        predictions to tests or field data;</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <p>Troubleshooting potential faults in materials selections, processes, or product designs, and ensuring
+                        the success of new products for manufacturing.</p>
+                </div>
+            </div>
+            <div id="spacebox3"></div>
+            <div class="container wow bounceInRight">
+                <h3>Who Should Attend?</h3>
+                <div id="about-red"></div>
+                <div id="spacebox3"></div>
+                <p> WIDL’ seminars are designed for managerial or technical professionals in manufacturing; i.e., materials suppliers
+                    and compounders, machinery builders and tool/die makers, equipment manufacturers, service support companies,
+                    various Tier Suppliers, and OEMs.</p>
+            </div>
+
+
+        </section>
+
+        <section id="seminar-second">
             <div id="spacebox2"></div>
             <div class="wow bounce">
-                <h2> What a day at WIDL will look like </h2>
+                <h2> What a schedule at WIDL will look like </h2>
                 <div id="about-red"></div>
             </div>
             <div id="spacebox2"></div>
-            <div class="container">
-                <ul>
-                    <li id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 1 </h3>
+                    <div id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
                         <h3>Multi-materials / fields FEA class</h3>
                         <p>Two-day, hands-on FEA training -</p>
-                    </li>
-                    <br>
-                    <li id="border-red" class="wow bounceInRight" data-wow-duration="2s">
-                        <h3>Rubber products design/FEA</h3>
-                        <p>One-day, hands-on rubber FEA -</p> 
-                    </li>
-                    <br>
-                    <li id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
-                        <h3>Plastics products design/FEA</h3>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 2 </h3>
+                    <div id="border-red" class="wow bounceInRight" data-wow-duration="2s">
+                        <h3>Rubber products design / FEA</h3>
+                        <p>One-day, hands-on rubber FEA -</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 3 </h3>
+                    <div id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
+                        <h3>Plastics products design / FEA</h3>
                         <p>One-day, hands-on plastics FEA - </p>
-                    </li>
-                    <br>
-                    <li id="border-red" class="wow bounceInRight" data-wow-duration="2s">
-                        <h3>Die/mold Structural analysis</h3>
+                    </div>
+                </div>
+
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 4 </h3>
+                    <div id="border-red" class="wow bounceInRight" data-wow-duration="2s">
+                        <h3>Die / mold Structural analysis</h3>
                         <p>One-day, hands-on mold structual FEA -</p>
-                    </li>
-                    <br>
-                    <li id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
-                        <h3>Multi-materials/fields FEA class</h3>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 5 </h3>
+                    <div id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
+                        <h3>Multi-materials / fields FEA class</h3>
                         <p>Two-day, hands-on rubber injection CFD - </p>
-                    </li>
-                    <br>
-                     <li id="border-red" class="wow bounceInRight" data-wow-duration="2s">
-                          <h3>Rubber products molding/CFD</h3>
-                          <p>One-day, hands-on rubber injection CFD -</p>  
-                     </li>
-                     <br>
-                            <li id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
-                                <h3>Plastics products molding/CFD</h3>
-                                <p>One-day, hands-on plastics injection CFD -</p>
-                            </li>
-                            <br>
-                                <li id="border-red" class="wow bounceInRight" data-wow-duration="2s">
-                                    <h3>Die/mold thermal analysis</h3>
-                                    <p>One-day, hands-on plastics injection CFD -</p>
-                                </li>
-                                <br>
-                                    <li></li>
-                                        <li></li>
-                                            <li></li>
-                </ul>
+                    </div>
+                </div>
+
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 6 </h3>
+                    <div id="border-red" class="wow bounceInRight" data-wow-duration="2s">
+                        <h3>Rubber products molding / CFD</h3>
+                        <p>One-day, hands-on rubber injection CFD -</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 7 </h3>
+                    <div id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
+                        <h3>Plastics products molding / CFD</h3>
+                        <p>One-day, hands-on plastics injection CFD -</p>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 8 </h3>
+                    <div id="border-red" class="wow bounceInRight" data-wow-duration="2s">
+                        <h3>Die / mold thermal analysis</h3>
+                        <p>One-day, hands-on plastics injection CFD -</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 9 </h3>
+                    <div id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
+                        <h3>Multi-Materials / fields FEA class</h3>
+                        <p>Two-day, hands-on FEA training -</p>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 10 </h3>
+                    <div id="border-red" class="wow bounceInRight" data-wow-duration="2s">
+                        <h3>Rubber products extrusion / CFD</h3>
+                        <p>One-day, hands-on rubber extrusion CFD -</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 11 </h3>
+                    <div id="border-red" class="wow bounceInLeft" data-wow-duration="2s">
+                        <h3>Plastics products extrusion / CFD</h3>
+                        <p>One-day, hands-on plastics extrusion CFD -</p>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <h3 class="wow rollIn"> 12 </h3>
+                    <div id="border-red" class="wow bounceInRight" data-wow-duration="2s">
+                        <h3>Die / mold flow analysis</h3>
+                        <p>One-day, hands-on mold fill CFD-</p>
+                    </div>
+                </div>
+
+
             </div>
 
 
-        </section </body>
+        </section>
+    </body>
 
-        <%- include partials/boot.ejs %>
-            <%- include partials/footer.ejs %>
+    <%- include partials/boot.ejs %>
+        <%- include partials/footer.ejs %>
