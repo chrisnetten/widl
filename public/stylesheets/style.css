@@ -318,6 +318,7 @@ border-color: #e60000;
 #seminar-intro {
     margin: auto;
     text-align: center;
+
 }
 
 #seminar-second {
@@ -326,3 +327,11 @@ border-color: #e60000;
     max-height: 100%;
 }
 
+#content-container {
+    max-width: 80%;
+    margin: auto;
+}
+
+#register-button {
+    float: right;
+}
