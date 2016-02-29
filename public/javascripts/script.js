@@ -13,7 +13,7 @@ $(window).load(function() {
 
 
 /* Index animations */
-
+ $(document).ready(function(){
     
             $(function () {
     var options = {
@@ -23,7 +23,7 @@ $(window).load(function() {
     $('.grid-stack').gridstack(options);
 });      
    
-
+ });
 	
 
 
