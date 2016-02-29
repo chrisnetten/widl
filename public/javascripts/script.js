@@ -18,7 +18,15 @@ $(document).ready(function(){
                 
  $(document).ready(function(){
      new WOW().init();
-        });                
+        });          
+        
+         $(document).ready(function () {
+    var options = {
+        cellHeight: 80,
+        verticalMargin: 10
+    };
+    $('.grid-stack').gridstack(options);
+});      
 
 
 
