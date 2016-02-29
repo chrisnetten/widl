@@ -20,37 +20,21 @@ $(document).ready(function(){
      new WOW().init();
         });          
         
-         $(document).ready(function () {
+
+
+
+
+/* Index animations */
+$(document).ready(function() {
+    
+            $(function () {
     var options = {
         cellHeight: 80,
         verticalMargin: 10
     };
     $('.grid-stack').gridstack(options);
 });      
-
-
-
-/* Index animations */
-$(document).ready(function() {
    
-    $("#offer-p").hide();
-       $(".small-box").hide();
-    $('#h1-offer').animo( {animation: 'bounceInLeft', duration: 2 }, function() {
-           $('#offer-p').fadeToggle(500);
-           $('.small-box').fadeToggle(500); 
-    });
-   
-   $('#button').animo("rotate", { degrees:360 }, function() {
-	$('#button1').animo("rotate", { degrees:360 }, function() {
-		$('#button2').animo("rotate", { degrees:360 });
-        
-        
-		});
-	});
-    
-    $('#index-img').animo({animation: "fadeInLeft", duration: 1});
-			$('#index-img1').animo({animation: "fadeInUp", duration: 1});
-				$('#index-img2').animo({animation: "fadeInRight", duration: 1});
 			});
 	
 
