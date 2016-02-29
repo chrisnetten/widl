@@ -20,6 +20,7 @@
     "jquery": "^2.2.0",
     "wow": "wowjs#^1.1.2",
     "animo.js": "^1.0.3",
-    "gridstack": "^0.2.4"
+    "gridstack": "^0.2.4",
+    "underscore": "^1.8.3"
   }
 }
