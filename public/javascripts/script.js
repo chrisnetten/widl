@@ -12,16 +12,15 @@ $(window).load(function() {
 
 
 
-/* Index animations */
+/* Index script - gridstack */
 $(document).ready(function() {
     
-            $(function () {
     var options = {
         cellHeight: 80,
         verticalMargin: 10
     };
     $('.grid-stack').gridstack(options);
-});      
+
    
 			});
 	
