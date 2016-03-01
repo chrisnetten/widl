@@ -399,8 +399,14 @@ border-color: #e60000;
             color: white;
 }
 
+#box9 {
+                background: url("/images/line.jpg");
+                color: white;
+}
+
 #smiles {
              background: url("/images/smiles.jpg");
+             color:white;
 }
 
 a {
