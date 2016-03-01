@@ -364,8 +364,18 @@ border-color: #e60000;
     max-width: 90%;
     background-color: purple;
     color: white;
+    text-align: center;
 }
 
 #box1 {
     background: url("/images/box1.png");
+}
+
+#box2 {
+        background: url("/images/box2.png");
+}
+
+a {
+    height: 100%;
+    width: 100%;
 }
