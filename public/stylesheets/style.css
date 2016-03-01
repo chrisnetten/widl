@@ -362,6 +362,10 @@ border-color: #e60000;
 .grid-stack-item-content {
     background-color: #e60000;
 }
+.grid-stack-item-content:hover {
+    background-color: black;
+    opacity: 0.7;
+}
 
 #purple {
     max-width: 90%;
