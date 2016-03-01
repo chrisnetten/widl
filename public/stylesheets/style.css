@@ -365,6 +365,8 @@ border-color: #e60000;
 .grid-stack-item-content:hover {
     background-color: black;
     opacity: 0.7;
+    position: absolute;
+
 }
 
 #purple {
@@ -381,6 +383,10 @@ border-color: #e60000;
 #box2 {
         background: url("/images/box2.png");
         color: white;
+}
+
+#box4 {
+    background-color: aqua;
 }
 
 a {
