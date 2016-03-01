@@ -110,7 +110,7 @@ font-family: 'Brush Script MT', cursive;
 }
 
 #nav-btn {
-  background-color: white;
+  background-color: #4E4F4F;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -407,6 +407,6 @@ a {
 }
 
 #nav-cursive {
-    font-family: 'Brush Script MT', cursive;
+font-family: 'Brush Script MT', cursive;
     color: #e60000;
 }
