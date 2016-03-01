@@ -86,61 +86,37 @@ font-family: 'Brush Script MT', cursive;
 }
 
 /* NAVBAR */
-#brand {
-    max-height:  120px;
-
+.navbar-white{
+  background: white;
+  border-bottom: 1px solid lightgrey;
 }
 
-
-
-#custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(119, 119, 119, 1);
-    height: 150px;
-    font-size: 30px;
-    
-
-}
-#custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.9);
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
-    border-radius: 4px;
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(119, 119, 119, 1);
-    background-color: rgba(248, 248, 248, 0);
-        font-size: 25px;
-line-height: 110px;
-
-        
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(51, 51, 51, 1);
-    background-color: rgba(231, 231, 231, 1);
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(85, 85, 85, 1);
-    background-color: rgba(231, 231, 231, 1);
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #000000;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #ddd;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: rgba(231, 231, 231, 1);
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #000000;
+.navbar-white .navbar-nav > li > a,
+.navbar-white .navbar-nav > li > a:hover
+{
+  color: black;
+  line-height: 50px;
 }
 
+.navbar-white .navbar-brand {
+  line-height: 50px;
+}
+
+.navbar-white .navbar-nav > .open > a,
+.navbar-white .navbar-nav > .open > a:hover,
+.navbar-white .navbar-nav > .open > a:focus{
+  background: white;
+  color: black;
+}
+
+#nav-btn {
+  background-color: #ea4a3c;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  line-height: 10px;
+}
 /* FOOTER */
 
 @media (max-width: 480px) {
