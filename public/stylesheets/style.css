@@ -359,3 +359,8 @@ border-color: #e60000;
 .grid-stack-item-content {
     background-color: #e60000;
 }
+
+#purple {
+    background-color: purple;
+    color: white;
+}
