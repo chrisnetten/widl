@@ -400,7 +400,7 @@ border-color: #e60000;
 }
 
 #box9 {
-                background: url("/images/line.jpg");
+                background: url("/images/line.jpg")no-repeat;
                 color: white;
 }
 
