@@ -361,6 +361,11 @@ border-color: #e60000;
 }
 
 #purple {
+    max-width: 90%;
     background-color: purple;
     color: white;
+}
+
+#box1 {
+    background-image: url("images/box1.png");
 }
