@@ -420,3 +420,11 @@ a {
     height: 100%;
     width: 100%;
 }
+
+#widget-text {
+    position: absolute;
+}
+
+#widget-text:hover{
+    position: absolute;
+}
