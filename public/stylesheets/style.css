@@ -352,11 +352,10 @@ border-color: #e60000;
 
 
 #mainpost {
-    background-color: black;
     max-width: 90%;
     margin: auto;
 }
 
 .grid-stack-item-content {
-    background-color: white;
+    background-color: #e60000;
 }
