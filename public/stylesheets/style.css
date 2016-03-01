@@ -376,6 +376,7 @@ border-color: #e60000;
 }
 
 a {
+    outline: none !important;
     height: 100%;
     width: 100%;
 }
