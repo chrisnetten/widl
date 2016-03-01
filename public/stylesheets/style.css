@@ -367,5 +367,5 @@ border-color: #e60000;
 }
 
 #box1 {
-    background-image: url("images/box1.png");
+    background: url("/images/box1.png");
 }
