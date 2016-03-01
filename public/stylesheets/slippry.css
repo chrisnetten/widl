@@ -116,7 +116,7 @@
   position: relative;
   height: 500px;
   width: 100%;
-  -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-image: -webkit-gradient(linear, left 80%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
  }
   .sy-slides-wrap:hover .sy-controls {
     display: block; }
