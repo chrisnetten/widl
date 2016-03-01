@@ -405,3 +405,8 @@ a {
     position: absolute;
     color: white;
 }
+
+#nav-cursive {
+    font-family: cursive;
+    color: #e60000;
+}
