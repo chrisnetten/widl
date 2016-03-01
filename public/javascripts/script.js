@@ -6,6 +6,10 @@ $(window).load(function() {
                 
  $(document).ready(function(){
      new WOW().init();
+     
+     jQuery(document).ready(function(){
+  jQuery('#slider').slippry()
+});
         });          
         
 
@@ -25,6 +29,3 @@ $(window).load(function() {
    
  });
 	
-jQuery(document).ready(function(){
-  jQuery('slider').slippry()
-});
