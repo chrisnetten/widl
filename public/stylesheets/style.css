@@ -373,10 +373,10 @@ border-color: #e60000;
 
 #box2 {
         background: url("/images/box2.png");
+        color: white;
 }
 
 a {
-    outline: none !important;
     height: 100%;
     width: 100%;
 }
