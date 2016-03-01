@@ -398,6 +398,10 @@ border-color: #e60000;
             background: url("/images/box5.png");
             color: white;
 }
+#box8 {
+    background-color: salmon;
+    color: white;
+}
 
 #box9 {
                 background: url("/images/line.jpg")no-repeat;
@@ -407,6 +411,11 @@ border-color: #e60000;
 #smiles {
              background: url("/images/smiles.jpg");
              color:white;
+}
+
+#box11 {
+    background-color: mediumaquamarine;
+    color: white;
 }
 
 a {
