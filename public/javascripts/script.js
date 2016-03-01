@@ -8,7 +8,9 @@ $(window).load(function() {
      new WOW().init();
      
      jQuery(document).ready(function(){
-  jQuery('#slider').slippry()
+  jQuery('#slider').slippry({
+      speed: 1200
+  });
 });
         });          
         
