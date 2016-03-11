@@ -333,7 +333,8 @@ border-color: #e60000;
 }
 
 .grid-stack-item-content {
-    background-color: #e60000;
+ font-family: 'Times New Roman', Times, serif;
+    
 }
 .grid-stack-item-content:hover::after {
    position: absolute;
