@@ -399,7 +399,8 @@ a {
 }
 
 #widget-text {
-    position: absolute;
+    position: relative;
+    color: white;
 }
 
 #widget-text:hover{
