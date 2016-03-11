@@ -31,3 +31,15 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+ var LatestTweets = {
+        init: function () {
+            twitterFetcher.fetch({
+                id: 'YOUR_ID_FROM_BEFORE', 
+                domId: 'latest-tweets'
+            });
+        }
+    };
+
+    LatestTweets.init();
+    });
