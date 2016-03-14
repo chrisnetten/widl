@@ -95,7 +95,7 @@ font-family: 'Brush Script MT', cursive;
 .navbar-white .navbar-nav > li > a,
 .navbar-white .navbar-nav > li > a:hover
 {
-  display: inline;
+  padding-left: 200px;
   margin: auto;
   color: black;
   line-height: 50px;
