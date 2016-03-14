@@ -365,11 +365,13 @@ border-color: #e60000;
 #box2 {
     
         background: url("/images/box2.png");
+            background-size: cover;
         color: white;
 }
 
 #box6 {
     background: url("/images/machine.jpg");
+        background-size: cover;
         opacity: 0.8;
 }
 #box4 {
@@ -379,6 +381,7 @@ border-color: #e60000;
 
 #box5 {
             background: url("/images/box5.png");
+                background-size: cover;
             color: white;
 }
 #box8 {
@@ -388,11 +391,13 @@ border-color: #e60000;
 
 #box9 {
                 background: url("/images/line.jpg")no-repeat;
+                    background-size: cover;
                 color: white;
 }
 
 #smiles {
              background: url("/images/smiles.jpg");
+                 background-size: cover;
              color:white;
 }
 
