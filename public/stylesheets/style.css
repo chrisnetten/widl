@@ -96,7 +96,7 @@ font-family: 'Brush Script MT', cursive;
 {
   color: black;
   line-height: 50px;
-    text-align: center;
+
 }
 
 .navbar-white .navbar-brand {
@@ -108,6 +108,7 @@ font-family: 'Brush Script MT', cursive;
 .navbar-white .navbar-nav > .open > a:focus{
   background: white;
   color: black;
+      text-align: center;
 }
 
 #nav-btn {
@@ -337,7 +338,7 @@ border-color: #e60000;
  font-family: 'Times New Roman', Times, serif;
     
 }
-.grid-stack-item-content:hover::after {
+.grid-stack-item-content:hover {
    position: absolute;
     z-index: 1;
     background-color: black;
