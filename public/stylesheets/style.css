@@ -335,7 +335,7 @@ border-color: #e60000;
 }
 
 .grid-stack-item-content {
- font-family: 'Times New Roman', Times, serif;
+	font-family: 'Arial Narrow', Arial, sans-serif;
     
 }
 .grid-stack-item-content:hover::after {
