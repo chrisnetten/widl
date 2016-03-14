@@ -404,6 +404,7 @@ border-color: #e60000;
 #widget-text {
     color: white;
     max-width: 90%;
+    margin: auto;
 }
 
 
