@@ -89,7 +89,6 @@ font-family: 'Brush Script MT', cursive;
 .navbar-white{
   background: white;
   border-bottom: 1px solid lightgrey;
-  text-align: center;
 }
 
 .navbar-white .navbar-nav > li > a,
@@ -97,6 +96,7 @@ font-family: 'Brush Script MT', cursive;
 {
   color: black;
   line-height: 50px;
+    text-align: center;
 }
 
 .navbar-white .navbar-brand {
