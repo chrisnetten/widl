@@ -351,6 +351,7 @@ border-color: #e60000;
 }
 
 #purple {
+        max-width: 90%;
     background-color: purple;
     color: white;
     opacity: 0.8;
@@ -362,15 +363,18 @@ border-color: #e60000;
 }
 
 #box2 {
+    
         background: url("/images/box2.png");
         color: white;
 }
 
 #box6 {
+    max-width: 90%;
     background-color: #4cb2b8;
         opacity: 0.8;
 }
 #box4 {
+        max-width: 90%;
     background-color: #4cb2b8;
         opacity: 0.8;
 }
