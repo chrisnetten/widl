@@ -349,7 +349,9 @@ border-color: #e60000;
     content: '';
 
 }
-
+.grid-stack-item-content:hover:widget-text::after {
+    display: block;
+}
 #purple {
     max-width: 90%;
     background-color: purple;
@@ -401,11 +403,6 @@ border-color: #e60000;
 
 }
 
-#widget-text:hover{
-    position: absolute;
-    color: white;
-    visibility: visible;
-}
 
 #nav-cursive {
 font-family: 'Brush Script MT', cursive;
