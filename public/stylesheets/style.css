@@ -339,7 +339,7 @@ border-color: #e60000;
 }
 .grid-stack-item-content:hover::after {
    position: absolute;
-    z-index: 1;
+    z-index: 2;
     background-color: black;
     opacity: 0.5;
     left: 0;
@@ -398,7 +398,7 @@ border-color: #e60000;
 #widget-text {
     color: white;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     top: 0;
     left: 0;
 }
