@@ -359,6 +359,7 @@ border-color: #e60000;
 
 #box1 {
     background: url("/images/box1.png");
+    background-size: cover;
 }
 
 #box2 {
