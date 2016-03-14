@@ -351,9 +351,10 @@ border-color: #e60000;
 }
 
 #purple {
-    max-width: 90%;
     background-color: purple;
     color: white;
+    opacity: .8;
+    
 }
 
 #box1 {
@@ -367,9 +368,11 @@ border-color: #e60000;
 
 #box6 {
     background-color: #4cb2b8;
+        opacity: .8;
 }
 #box4 {
     background-color: #4cb2b8;
+        opacity: .8;
 }
 
 #box5 {
@@ -392,8 +395,9 @@ border-color: #e60000;
 }
 
 #box11 {
-    background-color: mediumaquamarine;
+    background-color: #4cb2b8;
     color: white;
+        opacity: .8;
 }
 
 #widget-text {
