@@ -397,13 +397,14 @@ border-color: #e60000;
 }
 
 #widget-text {
-    position: relative;
     color: white;
+
 }
 
 #widget-text:hover{
     position: absolute;
     color: white;
+    visibility: visible;
 }
 
 #nav-cursive {
