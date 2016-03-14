@@ -341,17 +341,14 @@ border-color: #e60000;
    position: absolute;
     z-index: 1;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.5;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    content: '';
 
 }
-.grid-stack-item-content:hover:widget-text::after {
-    display: block;
-}
+
 #purple {
     max-width: 90%;
     background-color: purple;
@@ -400,7 +397,10 @@ border-color: #e60000;
 
 #widget-text {
     color: white;
-
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 
