@@ -19,7 +19,17 @@ $(document).ready(function () {
 
 
 /* Index animations */
+
+ jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 15,
+                time: 4000
+            });
+        });
+        
 $(document).ready(function () {
+
+
 
     $(function () {
         var options = {
@@ -35,7 +45,7 @@ $(document).ready(function () {
  var LatestTweets = {
         init: function () {
             twitterFetcher.fetch({
-                id: 'YOUR_ID_FROM_BEFORE', 
+                id: '709506677125545985', 
                 domId: 'latest-tweets'
             });
         }
