@@ -477,9 +477,16 @@ max-width: 100%;
 }
 
 #box9 {
-                background: url("/images/line.jpg")no-repeat;
+                background: url("/images/wild.png")no-repeat;
                     background-size: cover;
-                color: white;
+               
+}
+
+#box9-text {
+    color: black;
+    margin: auto;
+    font-size: 25px;
+    max-width: 90%;
 }
 
 #smiles {
