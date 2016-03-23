@@ -247,10 +247,17 @@ ul
 /* final footer */
 
 .final-footer {
-height:50px;
-
+height:70px;
+line-height: 70px;
 }
 
+#final-links-right {
+    float: right;
+}
+
+#final-footer-img {
+    height:70px;
+}
 
 /* About Us */
 
@@ -496,7 +503,7 @@ max-width: 100%;
 
 
 #nav-cursive {
-    font-size: 20px;
+    font-size: 25px;
 font-family: 'Brush Script MT', cursive;
     color: #e60000;
 }
