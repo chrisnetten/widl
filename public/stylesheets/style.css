@@ -453,7 +453,7 @@ max-width: 100%;
 }
 
 #box6-text {
-    max-width: 90%;
+    padding-left: 15px;
     margin:auto;
     font-size: 17px;
     color: white;
@@ -486,7 +486,7 @@ max-width: 100%;
     color: black;
     margin: auto;
     font-size: 25px;
-    max-width: 90%;
+    padding-left: 15px;
 }
 
 #smiles {
@@ -503,9 +503,14 @@ max-width: 100%;
 
 #widget-text {
     color: white;
-    max-width: 90%;
+    padding-left: 15px;
     margin: auto;
     font-size: 25px;
+}
+
+#free-img {
+    max-width: 65%;
+    padding-left: 15px;
 }
 
 
@@ -548,4 +553,5 @@ div.marquee > div.marquee-text {
     display:inline;
     width:auto;
     color: white;
+    font-size: 20px;
 }
