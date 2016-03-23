@@ -10,6 +10,7 @@ $(document).ready(function () {
     jQuery(document).ready(function () {
         jQuery('#slider').slippry({
             speed: 1200
+
         });
     });
 });          
@@ -41,15 +42,18 @@ $(document).ready(function () {
 
 });
 
-$(document).ready(function () {
- var LatestTweets = {
-        init: function () {
-            twitterFetcher.fetch({
-                id: '709506677125545985', 
-                domId: 'latest-tweets'
-            });
+    
+    $(document).ready(function () {
+    var marquee = $('div.marquee');
+marquee.each(function() {
+    var mar = $(this),indent = mar.width();
+    mar.marquee = function() {
+        indent--;
+        mar.css('text-indent',indent);
+        if (indent < -1 * mar.children('div.marquee-text').width()) {
+            indent = mar.width();
         }
     };
-
-    LatestTweets.init();
+    mar.data('interval',setInterval(mar.marquee,1000/60));
+});
     });

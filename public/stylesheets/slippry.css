@@ -117,7 +117,8 @@
   height: 500px;
   width: 100%;
   margin-top: 10px;
-  -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-image: -webkit-gradient(linear, left 5%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -moz-mask-image: -webkit-gradient(linear, left 30%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
  }
   .sy-slides-wrap:hover .sy-controls {
     display: block; }
@@ -349,3 +350,5 @@
     -o-transition: padding 600ms ease;
     -webkit-transition: padding 600ms ease;
     transition: padding 600ms ease; }
+    
+  
