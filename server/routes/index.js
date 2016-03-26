@@ -3,45 +3,35 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { 
+      title: 'Home' 
+  
+  });
 });
 
-router.get('/aboutus', function(req, res, next) {
-  res.render('aboutus', {
-    title: 'About Us', 
-  })
+router.get('/customer', function(req, res, next) {
+  res.render('customer', {
+    title: 'Products & Services'
+  });
 });
 
-router.get('/services', function(req, res, next) {
-  res.render('services', {
-    title: 'Products & Services', 
-  })
+router.get('/suppliers', function(req, res, next) {
+    res.render('suppliers', {
+        title: 'Suppliers'
+    });
 });
 
-router.get('/casestudies', function(req, res, next) {
-  res.render('casestudies', {
-    title: 'Home', 
-  })
+router.get('/talent', function(req, res, next) {
+    res.render('talent', {
+        title: 'Talent'
+    });
 });
 
-router.get('/downloads', function(req, res, next) {
-  res.render('downloads', {
-    title: 'Home', 
-  })
+router.get('/news', function(req, res, next) {
+    res.render('news', {
+        title: 'News'
+    });
 });
-
-router.get('/contact', function(req, res, next) {
-  res.render('contact', {
-    title: 'Home', 
-  })
-});
-
-router.get('/seminar', function(req, res, next) {
-  res.render('seminar', {
-    title: 'Home', 
-  })
-});
-
 
 
 module.exports = router;

@@ -47,14 +47,21 @@
 <header>
 <section id="upper-nav">
  <span>
- <a href="#" id="upper-nav-link"><b>Company</b></a> 
+    <div class="dropdown" style="float: left; padding-right: 0.3%;">
+  <a href="#"class="dropdown-toggle" id="upper-nav-link" type="button" data-toggle="dropdown"><span class="caret"></span><b>EN</b></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"><b>FR</b></a></li>
+  </ul>
+</div>
+
+ <a href="/aboutus" id="upper-nav-link"><b>Company</b></a> 
  <a href="#" id="upper-nav-link"><b>Innovation</b></a>
  </span>
  <span id="upper-nav-content-right">
-  <a href="#" id="upper-nav-link-right"><b>Customers</b></a> 
-  <a href="#" id="upper-nav-link-right">Partners</a> 
-  <a href="#" id="upper-nav-link-right">Interns</a> 
-  <a href="#" id="upper-nav-link-right"><b>Media</b></a> 
+  <a href="/customer" id="upper-nav-link-right"><b>Customers</b></a> 
+  <a href="/suppliers" id="upper-nav-link-right">Suppliers</a> 
+  <a href="/talent" id="upper-nav-link-right">Talent</a> 
+  <a href="/news" id="upper-nav-link-right"><b>Media</b></a> 
  </span>
 </section>
   <nav class="navbar navbar-white " role="navigation">
@@ -67,7 +74,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" style="font-size: 25px;">
+      <a href="/" class="navbar-brand" style="font-size: 25px;">
           Windsor Industrial Development Laboratory Inc.
       </a>
       <p id="nav-cursive">Your Partner In Design Through Simulation</p>

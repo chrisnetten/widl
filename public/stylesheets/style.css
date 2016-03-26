@@ -90,7 +90,7 @@ font-family: 'Brush Script MT', cursive;
 
 #upper-nav {
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+	font-family: 'Arial Narrow', Arial, sans-serif;
     border-bottom: 1px solid #eaeaea;
 }
 
@@ -99,10 +99,11 @@ font-family: 'Brush Script MT', cursive;
         text-decoration: none;
 }
 
+
 #upper-nav-link-right {
      color: black;
     text-decoration: none;
-        font-family: 'Times New Roman', Times, serif;
+	font-family: 'Arial Narrow', Arial, sans-serif;
             font-size: 18px;
 }
 
@@ -110,9 +111,7 @@ font-family: 'Brush Script MT', cursive;
     float: right;
 }
 
-.navbar {
-    border-bottom: 1px solid grey;
-}
+
 
 .navbar-brand {
     color: black;
@@ -125,7 +124,7 @@ font-family: 'Brush Script MT', cursive;
 }
 
 .navbar .navbar-collapse {
-    font-family: 'Times New Roman', Times, serif;
+	font-family: 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-size: 20px;
 }
@@ -133,6 +132,7 @@ font-family: 'Brush Script MT', cursive;
     max-width: 100%;
   background: white;
   border-bottom: 1px dotted lightgrey;
+ 
 }
 
 .navbar-white .navbar-nav > li > a,
@@ -189,7 +189,7 @@ font-family: 'Brush Script MT', cursive;
 
 
 .container-f {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-family: 'Arial Narrow', Arial, sans-serif;
     position: relative;
     max-width: 100%;
     max-height: 100%;
