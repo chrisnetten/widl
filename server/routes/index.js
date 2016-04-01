@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/customer', function(req, res, next) {
   res.render('customer', {
-    title: 'Products & Services'
+    title: 'Customer Support'
   });
 });
 
@@ -35,7 +35,7 @@ router.get('/news', function(req, res, next) {
 
 router.get('/material', function(req, res, next) {
     res.render('material', {
-        title: 'Material'
+        title: 'Materials'
     });
 });
 
@@ -65,7 +65,7 @@ router.get('/management', function(req, res, next) {
 
 router.get('/funding', function(req, res, next) {
     res.render('funding', {
-        title: 'Funding'
+        title: 'R&D Funding'
     });
 });
 

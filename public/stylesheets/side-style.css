@@ -80,7 +80,10 @@ background: -webkit-linear-gradient(right, rgba(230,230,230,0), rgba(230,230,230
     
 }
 
-
+#min-nav {
+    max-width: 60%;
+    margin: auto;
+}
 
 
 
