@@ -33,5 +33,58 @@ router.get('/news', function(req, res, next) {
     });
 });
 
+router.get('/material', function(req, res, next) {
+    res.render('material', {
+        title: 'Material'
+    });
+});
+
+router.get('/design', function(req, res, next) {
+    res.render('design', {
+        title: 'Design'
+    });
+});
+
+router.get('/processing', function(req, res, next) {
+    res.render('processing', {
+        title: 'Processing'
+    });
+});
+
+router.get('/testing', function(req, res, next) {
+    res.render('testing', {
+        title: 'Testing'
+    });
+});
+
+router.get('/management', function(req, res, next) {
+    res.render('management', {
+        title: 'Management'
+    });
+});
+
+router.get('/funding', function(req, res, next) {
+    res.render('funding', {
+        title: 'Funding'
+    });
+});
+
+router.get('/case-studies', function(req, res, next) {
+    res.render('case-studies', {
+        title: 'Case Studies'
+    });
+});
+
+router.get('/aboutus', function(req, res, next) {
+    res.render('aboutus' , {
+        title: 'About Us'
+    });
+});
+
+router.get('/about-widl', function(req, res, next) {
+    res.render('about-widl' , {
+        title: 'About Widl'
+    });
+});
 
 module.exports = router;

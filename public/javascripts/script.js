@@ -21,13 +21,13 @@ $(document).ready(function () {
 
 /* Index animations */
 
- jQuery(document).ready(function($) {
-            $('.counter').counterUp({
-                delay: 15,
-                time: 4000
-            });
-        });
-        
+jQuery(document).ready(function ($) {
+    $('.counter').counterUp({
+        delay: 15,
+        time: 4000
+    });
+});
+
 $(document).ready(function () {
 
 
@@ -42,18 +42,21 @@ $(document).ready(function () {
 
 });
 
+
+$(document).ready(function () {
+
     
-    $(document).ready(function () {
     var marquee = $('div.marquee');
-marquee.each(function() {
-    var mar = $(this),indent = mar.width();
-    mar.marquee = function() {
-        indent--;
-        mar.css('text-indent',indent);
-        if (indent < -1 * mar.children('div.marquee-text').width()) {
-            indent = mar.width();
-        }
-    };
-    mar.data('interval',setInterval(mar.marquee,1000/60));
-});
+    marquee.each(function () {
+        var mar = $(this), indent = mar.width();
+        mar.marquee = function () {
+            indent--;
+            mar.css('text-indent', indent);
+            if (indent < -1 * mar.children('div.marquee-text').width()) {
+                indent = mar.width();
+            }
+        };
+        mar.data('interval', setInterval(mar.marquee, 1000 / 60));
     });
+});
+
