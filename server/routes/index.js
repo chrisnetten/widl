@@ -87,4 +87,10 @@ router.get('/about-widl', function(req, res, next) {
     });
 });
 
+router.get('/widl-echo', function(req, res, next) {
+    res.render('widl-echo' , {
+        title: 'Widl Echo'
+    });
+});
+
 module.exports = router;

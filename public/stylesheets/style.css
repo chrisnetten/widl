@@ -464,6 +464,7 @@ max-width: 100%;
     padding-left: 15px;
     margin:auto;
     font-size: 17px;
+    font-size-adjust: 0.5;
     color: white;
     
 }

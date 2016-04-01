@@ -4,9 +4,10 @@ body {
 
 .navbar-white{
  
--webkit-box-shadow: 0px 19px 73px -25px rgba(0,0,0,0.63);
--moz-box-shadow: 0px 19px 73px -25px rgba(0,0,0,0.43);
-box-shadow: 0px 19px 73px -25px rgba(0,0,0,0.63);
+
+-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.63);
+	   -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.63);
+	        box-shadow: 0 8px 6px -6px rgba(0,0,0,0.63);
 }
 
 /* General Styles */
@@ -83,7 +84,6 @@ background: -webkit-linear-gradient(right, rgba(230,230,230,0), rgba(230,230,230
 
 
 
-
 #main-side-text-container {
      font-size: 18px;
     float: left;
@@ -99,4 +99,20 @@ background: -webkit-linear-gradient(right, rgba(230,230,230,0), rgba(230,230,230
 #main-side-img {
     padding-right: 15%;
     float: right;
+}
+
+/* Coming soon grey out and echo links*/
+
+#echo-link {
+    padding-top: 2%;
+}
+
+#coming-soon-link {
+    color: lightgrey;
+    text-decoration: underline;
+    padding-top: 2%;
+}
+
+#coming-soon-date {
+    color: lightgrey;
 }
