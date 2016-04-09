@@ -2,6 +2,9 @@
     #header-text-red {
         font-size: 15px;
     }
+    .news-slider .text-content {
+     width: 50%;   
+    }
 }
 
 .siteLoadUp {
@@ -654,6 +657,6 @@ div.marquee > div.marquee-text {
     text-shadow: 0 0 2px black;
     padding-left: 15px;
     margin: auto;
-    font-size: 25px;
-        font-size-adjust: .2;
+    font-size: 20px;
+        font-size-adjust: .5;
 }
