@@ -2,8 +2,8 @@
     #header-text-red {
         font-size: 15px;
     }
-    .news-slider .text-content {
-     width: 50%;   
+    .news-slider  {
+     display: none !important;   
     }
 }
 
