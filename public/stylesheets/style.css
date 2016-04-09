@@ -5,6 +5,9 @@
     .news-slider  {
      display: none !important;   
     }
+    #mainpost {
+        max-width: 100%;
+    }
 }
 
 .siteLoadUp {
