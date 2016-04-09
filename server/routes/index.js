@@ -83,7 +83,7 @@ router.get('/aboutus', function(req, res, next) {
 
 router.get('/about-widl', function(req, res, next) {
     res.render('about-widl' , {
-        title: 'About Widl'
+        title: 'About WIDL'
     });
 });
 
