@@ -1,3 +1,9 @@
+@media (max-width: 480px) {
+    #header-text-red {
+        font-size: 15px;
+    }
+}
+
 .siteLoadUp {
 	position: fixed;
 	left: 0px;
@@ -97,6 +103,7 @@ font-family: 'Brush Script MT', cursive;
 #upper-nav-link {
         color: black;
         text-decoration: none;
+            padding-left:   0.5%;
 }
 
 
@@ -105,6 +112,7 @@ font-family: 'Brush Script MT', cursive;
     text-decoration: none;
 	font-family: 'Arial Narrow', Arial, sans-serif;
             font-size: 18px;
+            padding-right: 3%;
 }
 
 #upper-nav-content-right {
@@ -150,9 +158,7 @@ font-family: 'Brush Script MT', cursive;
 .navbar-white .navbar-nav > .open > a,
 .navbar-white .navbar-nav > .open > a:hover,
 .navbar-white .navbar-nav > .open > a:focus{
-  background: white;
   color: #e60000;
-
 }
 
 #nav-btn {
@@ -424,6 +430,10 @@ border-color: #e60000;
     
 }
 
+.red {
+    color: #e60000;
+}
+
 #box1 {
     background: url("/images/box1.jpg");
     background-size: cover;
@@ -518,6 +528,14 @@ max-width: 100%;
     font-size: 25px;
 }
 
+#widget-text-red {
+    color: gold;
+    text-shadow: 0 0 2px black;
+    padding-left: 15px;
+    margin: auto;
+    font-size: 25px;
+}
+
 
 
 #free-img {
@@ -577,4 +595,65 @@ div.marquee > div.marquee-text {
 #signature {
     font-size: 15px;
     opacity: 0.7;
+}
+/* News */
+.news-slider {
+  /* Style the actual content */
+}
+.news-slider .text-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+  width: 30%;
+  height: 100%;
+}
+.news-slider .text-content h2 {
+  margin: 0;
+}
+.news-slider .text-content p {
+  margin: 1em 0;
+}
+.news-slider .text-content a.button-link {
+  padding: 0.25em 0.5em;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+.news-slider .image-content {
+  line-height: 0;
+}
+.news-slider .image-content img {
+  width: 100%;
+}
+.news-slider .news-pager {
+  text-align: right;
+  display: block;
+  margin: 0.2em 0 0;
+  padding: 0;
+  list-style: none;
+}
+.news-slider .news-pager li {
+  display: inline-block;
+  padding: 0.6em;
+  margin: 0 0 0 1em;
+}
+.news-slider .news-pager li.sy-active a {
+  color: #31ace2;
+}
+.news-slider .news-pager li a {
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+#header-text-red {
+    color: #e60000;
+    text-shadow: 0 0 2px black;
+    padding-left: 15px;
+    margin: auto;
+    font-size: 25px;
+        font-size-adjust: .2;
 }

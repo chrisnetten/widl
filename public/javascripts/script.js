@@ -7,13 +7,26 @@ $(window).load(function () {
 $(document).ready(function () {
     new WOW().init();
 
-    jQuery(document).ready(function () {
-        jQuery('#slider').slippry({
-            speed: 1200
+jQuery('#news-demo').slippry({
+  // general elements & wrapper
+  slippryWrapper: '<div class="sy-box news-slider" />', // wrapper to wrap everything, including pager
+  elements: 'article', // elments cointaining slide content
 
-        });
-    });
-});          
+  // options
+  adaptiveHeight: false, // height of the sliders adapts to current 
+  captions: false,
+
+  // pager
+  pagerClass: 'news-pager',
+
+  // transitions
+  transition: 'horizontal', // fade, horizontal, kenburns, false
+  speed: 1400,
+  pause: 5000,
+
+  // slideshow
+  autoDirection: 'next'
+});         
         
 
 
@@ -26,6 +39,7 @@ jQuery(document).ready(function ($) {
         delay: 15,
         time: 4000
     });
+});
 });
 
 $(document).ready(function () {
