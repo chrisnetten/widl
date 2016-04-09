@@ -115,11 +115,12 @@ font-family: 'Brush Script MT', cursive;
     text-decoration: none;
 	font-family: 'Arial Narrow', Arial, sans-serif;
             font-size: 18px;
-            padding-right: 3%;
+            padding-right: 4%;
 }
 
 #upper-nav-content-right {
     float: right;
+    width: 290px;
 }
 
 
@@ -407,6 +408,10 @@ border-color: #e60000;
     max-width: 100%;
     margin: auto;
 }
+.grid-stack {
+    max-width: 60%;
+    margin: auto;
+}
 
 .grid-stack-item-content {
 	font-family: 'Arial Narrow', Arial, sans-serif;
@@ -440,7 +445,6 @@ border-color: #e60000;
 #box1 {
     background: url("/images/box1.jpg");
     background-size: cover;
-    color: ;
 }
 
 #box2 {
