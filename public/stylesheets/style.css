@@ -612,12 +612,11 @@ div.marquee > div.marquee-text {
 }
 .news-slider .text-content {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.9);
   padding: 1em;
-  width: 30%;
+  width: 45%;
   height: 100%;
 }
 .news-slider .text-content h2 {
@@ -662,6 +661,7 @@ div.marquee > div.marquee-text {
 #header-text-red {
     color: #e60000;
     padding-left: 15px;
+        text-shadow: 0 0 2px black;
     margin: auto;
     font-size: 20px;
         font-size-adjust: .5;
