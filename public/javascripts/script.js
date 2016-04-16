@@ -25,7 +25,7 @@ jQuery('#news-demo').slippry({
   pause: 5000,
 
   // slideshow
-  autoDirection: 'next'
+  autoDirection: 'prev'
 });         
         
 

@@ -24,8 +24,8 @@ body {
 background-color: #E6E6E6;
             font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 
-
-
+max-width: 100%;
+height: 100%;
 
     
 }
@@ -101,15 +101,18 @@ font-family: 'Brush Script MT', cursive;
 /* NAVBAR */
 
 #upper-nav {
-    font-size: 18px;
+    max-width:100%;
+    font-size: 17px;
 	font-family: 'Arial Narrow', Arial, sans-serif;
     border-bottom: 1px solid #eaeaea;
+            
 }
 
 #upper-nav-link {
         color: black;
         text-decoration: none;
-            padding-left:   0.5%;
+        
+
 }
 
 
@@ -117,13 +120,13 @@ font-family: 'Brush Script MT', cursive;
      color: black;
     text-decoration: none;
 	font-family: 'Arial Narrow', Arial, sans-serif;
-            font-size: 18px;
-            padding-right: 4%;
+            font-size: 17px;
+            padding-left: 2%;
 }
 
 #upper-nav-content-right {
     float: right;
-    width: 290px;
+    width: 250px;
 }
 
 
@@ -133,7 +136,6 @@ font-family: 'Brush Script MT', cursive;
 }
 .navbar .navbar-nav {
   display: inline-block;
-  float: none;
   vertical-align: top;
 
 }
@@ -402,19 +404,13 @@ border-color: #e60000;
     float: right;
 }
 
-
-
-
-
-
-#mainpost {
-    max-width: 100%;
-    margin: auto;
+#grid-section {
+        max-width: 60%;
+            margin: auto;
+height: 100%;
 }
-.grid-stack {
-    max-width: 60%;
-    margin: auto;
-}
+
+
 
 .grid-stack-item-content {
 	font-family: 'Arial Narrow', Arial, sans-serif;
@@ -432,7 +428,10 @@ border-color: #e60000;
     height: 100%;
     width: 100%;
     content: '';
+    
 }
+
+
 
 #purple {
     background-color: lightgrey;
@@ -516,6 +515,7 @@ max-width: 100%;
     margin: auto;
     font-size: 25px;
     padding-left: 15px;
+    padding-top: 5%;
 }
 
 #smiles {
@@ -525,8 +525,8 @@ max-width: 100%;
 }
 
 #box11 {
-    background-color: #4cb2b8;
-    color: white;
+  background-color: dodgerblue;
+                 background-size: cover;    color: white;
         opacity: .8;
 }
 
@@ -536,7 +536,17 @@ max-width: 100%;
     padding-left: 15px;
     margin: auto;
     font-size: 25px;
+    padding-top: 5%;
 }
+
+#text-pamphlet {
+    color: white;
+    padding-left: 20px;
+    margin: auto;
+    font-size: 25px;
+}
+
+
 
 #widget-text-red {
     color: gold;
@@ -544,6 +554,7 @@ max-width: 100%;
     padding-left: 15px;
     margin: auto;
     font-size: 25px;
+    padding-top: 5%;
 }
 
 
@@ -616,7 +627,7 @@ div.marquee > div.marquee-text {
   left: 0;
   right: 0;
   padding: 1em;
-  width: 45%;
+  width: 60%;
   height: 100%;
 }
 .news-slider .text-content h2 {
@@ -663,6 +674,16 @@ div.marquee > div.marquee-text {
     padding-left: 15px;
         text-shadow: 0 0 2px black;
     margin: auto;
-    font-size: 20px;
+    font-size: 28px;
         font-size-adjust: .5;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#pamphlet-folder {
+    padding-left: 23%;
+    padding-top: 10%;
+}
+
+.join-container {
+    text-align: center;
 }

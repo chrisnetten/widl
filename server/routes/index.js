@@ -93,4 +93,16 @@ router.get('/widl-echo', function(req, res, next) {
     });
 });
 
+router.get('/company', function(req, res, next) {
+    res.render('company' , {
+        title: 'Company'
+    });
+});
+
+router.get('/innovation', function(req, res, next) {
+    res.render('innovation' , {
+        title: 'Innovation'
+    });
+});
+
 module.exports = router;

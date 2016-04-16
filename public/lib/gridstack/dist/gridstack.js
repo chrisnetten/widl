@@ -414,7 +414,7 @@
             always_show_resize_handle: opts.always_show_resize_handle || false,
             resizable: _.defaults(opts.resizable || {}, {
                 autoHide: !(opts.always_show_resize_handle || false),
-                handles: 'se'
+                handles: 'se , sw, s , e , w'
             }),
             draggable: _.defaults(opts.draggable || {}, {
                 handle: (opts.handle_class ? '.' + opts.handle_class : (opts.handle ? opts.handle : '')) || '.grid-stack-item-content',

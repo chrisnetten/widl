@@ -97,9 +97,15 @@ background: -webkit-linear-gradient(right, rgba(230,230,230,0), rgba(230,230,230
 
 }
 
-#main-side-text {
-        
+#main-side-text-container-2 {
+     font-size: 16px;
+    float: left;
+    padding-left: 20%;
+    max-width: 80%;
+
 }
+
+
 
 #main-side-img {
     padding-right: 15%;
