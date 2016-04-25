@@ -1,4 +1,7 @@
 @media (max-width: 480px) {
+    #register_form {
+        float: none;
+    }
     #header-text-red {
         font-size: 15px;
     }

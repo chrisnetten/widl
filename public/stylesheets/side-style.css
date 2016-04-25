@@ -127,3 +127,20 @@ background: -webkit-linear-gradient(right, rgba(230,230,230,0), rgba(230,230,230
 #coming-soon-date {
     color: lightgrey;
 }
+
+#registration-section {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#register_form {
+   display: inline-block;
+    text-align: center;
+}
+
+#reg-form-title {
+    margin: auto;
+    max-width: 30%;
+    border-bottom: 4px solid #e60000;
+}
