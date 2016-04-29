@@ -49,6 +49,10 @@ height: 100%;
     
 }
 
+built-by{
+ float: left; 
+ line-height: 22px;   
+}
 
 #offer-head{
     max-height: 100%;
