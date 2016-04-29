@@ -8,7 +8,7 @@
     .news-slider  {
      display: none !important;   
     }
-    #mainpost {
+    #grid-section {
         max-width: 100%;
     }
 }
