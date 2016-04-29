@@ -11,6 +11,9 @@
     #grid-section {
         max-width: 100% !important;
     }
+    #navigation{
+        display: none !important;
+    }
 }
 
 .siteLoadUp {
