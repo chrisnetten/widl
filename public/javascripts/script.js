@@ -73,6 +73,7 @@ $(document).ready(function () {
         mar.data('interval', setInterval(mar.marquee, 1000 / 60));
     });
 });
+$(document).ready(function () {
 
  jQuery(function($){
      $( '.menu-btn' ).click(function(){
@@ -91,3 +92,5 @@ $(document).ready(function () {
     	     $('.responsive-menu').toggleClass('expand')
     	     })
         })
+        
+});
