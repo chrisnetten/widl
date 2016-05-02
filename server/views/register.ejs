@@ -27,7 +27,7 @@
 </span>
 <span style="float: right;">
 
-            <input class="form-control" name="middleName" type="name" placeholder="Middle Name" required>
+            <input class="form-control" name="middleName" type="name" placeholder="Middle Name" >
 </span>
 <span style="float: left;">
 
@@ -40,38 +40,80 @@
           <input class="form-control" name="email" type="email" placeholder="Email" required>
         </div>
         <br>
+<script type="text/javascript">
 
-        <div class="input-group">
-            <span style="float: left;">
+function yesnoCheck() {
+    if (document.getElementById('cmn-toggle-1').checked) {
+        document.getElementById('yesCheck').style.display = 'block';
+    }
+    else 
 
-            <input class="form-control" name="title" type="title" placeholder="Title" required>
-            </span>
-            <span style="float: right;">
+    document.getElementById('yesCheck').style.display = 'none';
 
-          <input class="form-control" name="companyName" type="name" placeholder="Company Name" required>
-            </span>
-            <span style="float: right;">
+    
+}
+function yesnoCheck2() {
+    if (document.getElementById('cmn-toggle-2').checked) {
+        document.getElementById('yesCheck2').style.display = 'block';
+    }
+    else 
 
-          <input class="form-control" name="companyAddress" type="address" placeholder="Company Address" required>
-            </span>
+    document.getElementById('yesCheck2').style.display = 'none';
+
+    
+}
+
+</script>
+
+  <div class="switch">
+      <b>Company Address:</b>
+  <input id="cmn-toggle-1" onclick="javascript:yesnoCheck();" class="cmn-toggle cmn-toggle-round" type="checkbox" />
+  <label for="cmn-toggle-1"></label>
+</div>
+
+    <div id="yesCheck" style="display:none">
+       <div class="input-group">      
+                     <input class="form-control" name="companyAddress" type="address" placeholder="Company Name" >           
+          <input class="form-control" name="companyAddress" type="address" placeholder="Company Address" >
+            <input class="form-control" name="city" type="city" placeholder="City" >
         </div>
+    </div>
+   
+<br>
+ 
+    
+    <div class="switch">
+      <b>Home Address:</b>
+  <input id="cmn-toggle-2" onclick="javascript:yesnoCheck2();" class="cmn-toggle cmn-toggle-round" type="checkbox" />
+  <label for="cmn-toggle-2"></label>
+</div>
+
+    <div id="yesCheck2" style="display:none">
+       <div class="input-group">
+            <input class="form-control" name="companyAddress" type="address" placeholder="Address" >
+            <input class="form-control" name="city" type="city" placeholder="City" >
+            <input class="form-control" name="postal" type="postal" placeholder="Postal / Zip Code" >
+        </div>
+    </div>
+  
         
+        <br>
          <div class="input-group">
                          <span style="float: left;">
 
           <input class="form-control" name="phoneNumber" type="tel" placeholder="Phone Number" required>
                          </span>
                           <span style="float: right;">
-          <input class="form-control" name="cellNumber" type="tel" placeholder="Cell Number" required>
+          <input class="form-control" name="cellNumber" type="tel" placeholder="Cell Number" >
                       </span>
                                             <span style="float: right;">
-          <input class="form-control" name="faxNumber" type="tel" placeholder="Fax Number" required>
+          <input class="form-control" name="faxNumber" type="tel" placeholder="Fax Number" >
                                             </span>
         </div>
         
         <br>
         <div class="input-group">
-            <textarea id="message" class="form-control" placeholder="Write Message:" name="message" rows="15" cols="78" required></textarea>
+            <textarea id="message" class="form-control" placeholder="Write Message:" name="message" rows="15" cols="78" ></textarea>
             <br />
         </div>
 

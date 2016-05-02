@@ -20,9 +20,12 @@
     #footer-info{
         display: none !important;
     }
-    #built-by {
-        float: none !important;
+    #final-links-right {
+        float: left !important;
         max-width: 100% !important;
+    }
+    #final-links {
+        display: none;
     }
     #final-footer-img{
         max-width: 100% !important;
