@@ -1,129 +1,71 @@
 <%- include partials/side-header.ejs %>
 
 <section id="registration-section">
-    <br>
-    <h1 id="reg-form-title">Sign up with WIDL</h1>
+ 
 <div id="spacebox"></div>
 
-    <form id="register_form" action="/register" method="POST">
-
-        <div class="input-group">
-           <select name="honorifics">
-  <option value="Mr.">Mr.</option>
-  <option value="Mrs.">Mrs.</option>
-  <option value="Ms.">Ms.</option>
-  <option value="Dr.">Dr.</option>
-  <option value="Prof.">Prof.</option>
-  <option value="Hon.">Hon.</option>
-
-</select>
-        </div>
-
-        <div class="input-group">
-             
-<span style="float: right;">
-
-            <input class="form-control" name="firstName" type="name" placeholder="First Name" required>
-</span>
-<span style="float: right;">
-
-            <input class="form-control" name="middleName" type="name" placeholder="Middle Name" >
-</span>
-<span style="float: left;">
-
-            <input class="form-control" name="lastName" type="name" placeholder="Last Name" required>
-</span>
-        </div>
-                <br>
-
- <div class="input-group">
-          <input class="form-control" name="email" type="email" placeholder="Email" required>
-        </div>
-        <br>
-<script type="text/javascript">
-
-function yesnoCheck() {
-    if (document.getElementById('cmn-toggle-1').checked) {
-        document.getElementById('yesCheck').style.display = 'block';
-    }
-    else 
-
-    document.getElementById('yesCheck').style.display = 'none';
-
-    
-}
-function yesnoCheck2() {
-    if (document.getElementById('cmn-toggle-2').checked) {
-        document.getElementById('yesCheck2').style.display = 'block';
-    }
-    else 
-
-    document.getElementById('yesCheck2').style.display = 'none';
-
-    
-}
-
-</script>
-
-  <div class="switch">
-      <b>Company Address:</b>
-  <input id="cmn-toggle-1" onclick="javascript:yesnoCheck();" class="cmn-toggle cmn-toggle-round" type="checkbox" />
-  <label for="cmn-toggle-1"></label>
-</div>
-
-    <div id="yesCheck" style="display:none">
-       <div class="input-group">      
-                     <input class="form-control" name="companyAddress" type="address" placeholder="Company Name" >           
-          <input class="form-control" name="companyAddress" type="address" placeholder="Company Address" >
-            <input class="form-control" name="city" type="city" placeholder="City" >
-        </div>
-    </div>
-   
-<br>
  
-    
-    <div class="switch">
-      <b>Home Address:</b>
-  <input id="cmn-toggle-2" onclick="javascript:yesnoCheck2();" class="cmn-toggle cmn-toggle-round" type="checkbox" />
-  <label for="cmn-toggle-2"></label>
-</div>
 
-    <div id="yesCheck2" style="display:none">
-       <div class="input-group">
-            <input class="form-control" name="companyAddress" type="address" placeholder="Address" >
-            <input class="form-control" name="city" type="city" placeholder="City" >
-            <input class="form-control" name="postal" type="postal" placeholder="Postal / Zip Code" >
-        </div>
-    </div>
-  
+ <form action="index.html" method="post">
+      <img src="/images/favicon.png"/>
+        <h1>Sign Up</h1>
         
-        <br>
-         <div class="input-group">
-                         <span style="float: left;">
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          
+        <select id="title" name="user_title">
+          <optgroup label="Title">
+            <option value="Mr">Mr.</option>
+            <option value="Mrs">Mrs.</option>
+            <option value="Ms">Ms.</option>
+            <option value="Dr">Dr.</option>
+            <option value="Prof">Prof.</option>
+            <option value="Hon">Hon.</option>
+          </optgroup>
+         
+        </select>
+          <div style="height: 25px;"></div>
+          <label for="name">Fullname:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+           <select id="address" name="user_address">
+          <optgroup label="Address">
+            <option value="Home">Home Address</option>
+            <option value="Company">Company Address</option>
+          </optgroup>
+         
+        </select>
+                  <div style="height: 25px;"></div>
 
-          <input class="form-control" name="phoneNumber" type="tel" placeholder="Phone Number" required>
-                         </span>
-                          <span style="float: right;">
-          <input class="form-control" name="cellNumber" type="tel" placeholder="Cell Number" >
-                      </span>
-                                            <span style="float: right;">
-          <input class="form-control" name="faxNumber" type="tel" placeholder="Fax Number" >
-                                            </span>
-        </div>
+         <label for="address">Address:</label>
+          <textarea id="address" name="user_address"></textarea>
+          
+                    <div style="height: 25px;"></div>
+
+          
+          <label for="phonenumber">Phone Number:</label>
+          <input type="tel" id="phonenumber" name="user_phonenumber">
+          
+          
+          
+          <label for="fax">Fax:</label>
+          <input type="tel" id="fax" name="user_fax">
+          
+          
+        </fieldset>
         
-        <br>
-        <div class="input-group">
-            <textarea id="message" class="form-control" placeholder="Write Message:" name="message" rows="15" cols="78" ></textarea>
-            <br />
-        </div>
+        <fieldset>
+          <legend><span class="number">2</span>About You</legend>
+          <label for="bio">Biography:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        </fieldset>
+                  <div style="height: 25px;"></div>
 
-        <br>
-
-        <div class="submitButton">
-            <input id="submit_button" class="btn btn-danger wow bounceInUp" type="submit" value="Submit" />
-        </div>
-    </form>
-
+        <button id="sub-but" type="submit">Sign Up</button>
+      </form>
 
 </section>
 
